@@ -1,0 +1,14 @@
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    gap: 5vh;
+    background-color: rgb(197, 154, 97);
+}
+.value{
+    font-size: 2rem;
+    color: white;
+    font-weight: bold;
+}
