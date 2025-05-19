@@ -7,7 +7,7 @@ function Home() {
     "https://jsonplaceholder.typicode.com/todos"
   );
 
-  const retry = () => {
+  const reset = () => {
     window.location.reload();
   };
 
@@ -21,7 +21,7 @@ function Home() {
       {Array.isArray(todo) && !loading && !error && todo.length === 0 && (
         <div>
           <p>No data available at the moment.</p>
-          <button onClick={retry}>Retry</button>
+          <button onClick={reset}>Retry</button>
         </div>
       )}
 
