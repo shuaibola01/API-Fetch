@@ -1,0 +1,6 @@
+  {
+    "compilerOptions": {
+      "baseUrl": "src"
+    },
+    "include": ["src", "blog/src/Blog_Trial"]
+  }
